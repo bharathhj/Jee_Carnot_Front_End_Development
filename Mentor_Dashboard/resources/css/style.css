@@ -1,0 +1,283 @@
+
+ /* mint white : #ecf0f1; */
+/** --------------------------------------  **/
+/**          Basic steps                    **/
+/** --------------------------------------  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+body {
+    height: 100%; 
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/** --------------------------------------  **/
+/**        Reusable components              **/
+/** --------------------------------------  **/
+
+
+.row-1 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;       
+}
+
+.box {
+    padding: 2%;
+}
+
+
+/* ------ Links ----- */
+
+a:link,
+a:visited {
+    color: #004d66;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s; 
+}
+
+
+
+/** --------------------------------------  **/
+/**        Header of Jee Carnot             **/
+/** --------------------------------------  **/
+/* main nav */
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #09206F;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+#user {
+    top: 15px;
+    left: 1450px;
+    width: 58px;
+    height: 58px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+#notification {
+    left: 1430px;
+    width: 58px;
+    height: 58px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.bell {
+    margin-bottom: 10px; 
+}
+
+hr.new4 {
+  border: 0.00000000002px solid rgba(20, 19, 19, 0.17);
+}
+
+/** --------------------------------------  **/
+/**                  Wrap                   **/
+/** --------------------------------------  **/
+#fixed_width_right {
+width:300px;
+height: 100vh;
+padding:2px;
+float:right;
+background-color:#fcfcfc;
+}
+
+#unfixed_width {
+height: 100vh;
+padding:2px;
+margin-left:266px;
+background-color:#F0F3F8; 
+}
+
+
+/** --------------------------------------  **/
+/**                  Side Bar               **/
+/** --------------------------------------  **/
+
+/* The side navigation menu */
+.sidebar {
+  width: 266px;
+  background-color:#09206F;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 55px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  font-size: 17px;
+  display: block;
+  color: #f1f6f7;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+
+/* Links on mouse-over */
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.38);
+  border-left: 3px solid #ffffff;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+/** --------------------------------------  **/
+/**                To Do                    **/
+/** --------------------------------------  **/
+
+.td {
+    padding-top: 35px;
+    margin-left: 100px;
+    color: #F9A61A;
+}
+
+.tdlist {
+    
+    margin-left: 25px;
+    color: #484646;
+}
+
+
+/** --------------------------------------  **/
+/**               Main Section              **/
+/** --------------------------------------  **/
+
+.container-1 {
+    background-color: #ffffff;
+    margin-left: 85px;
+    margin-top: 30px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.sm{
+    color: #FFC14B;
+    margin-left: 260px;
+}
+.abtu {
+    padding-top: 15px; 
+    background-color: #09206F;
+    width: 250px;
+    margin-left: 233px;
+    padding-bottom: 10px;
+    color: #f2f9ff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 17px;
+}
+
+.row{
+  display: block;
+  min-height: 1px;
+  margin: 5px;
+}
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.column{
+  width:38%;
+  float:left;
+  padding: 0 5%;
+}
+.details {
+    padding-top: 20px;
+}
+.lvalues {
+    color: #09206F;
+    
+}
+.rvalues {
+    color: #FFC14B;
+    float: inherit;
+    font-size: 18px;
+}
+
+.main-image-1 {
+    padding-top: 25px;
+    margin-left: 85px;
+}
+
