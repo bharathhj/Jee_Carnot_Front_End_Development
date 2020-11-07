@@ -19,6 +19,38 @@ html {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    margin-right: 10px;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-align: center;
+    color: #09206F;
+    background-color: #fff;
+    font-size: 19px;
+    -webkit-transition: backround-color 0.2s, border 0.2s, color 0.2s;
+    transition: backround-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    text-align: center;
+    color: #09206F;
+    font-size: 19px;
+    background-color: #F0F3F8;
+    border: 1px solid #000;
+    border-radius: 20px; 
+}
+
+@media (min-width: 768px)
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
 /** --------------------------------------  **/
 /**                  Side Bar               **/
 /** --------------------------------------  **/
@@ -53,29 +85,8 @@ html {
 /* Links on mouse-over */
 .sidebar-1 a:hover {
   background-color: rgba(255, 255, 255, 0.38);
-  border-left: 3px solid #ffffff;
+  border-left: 20px solid #ffffff;
   color: white;
-}
-
-/** --------------------------------------  **/
-/**                To Do                    **/
-/** --------------------------------------  **/
-
-.sidebar-2 {
-  background-color:rgb(252, 252, 252);
-  overflow: hidden;
-}
-
-.td {
-    text-align: center;
-    padding-top: 35px;
-    color: #F9A61A;
-}
-
-.tdlist {
-    padding-left: 15px;
-    text-align: left;
-    color: #484646;
 }
 
 /** --------------------------------------  **/
@@ -83,12 +94,6 @@ html {
 /** --------------------------------------  **/
 
 .container-z {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     height: 100vh;
     background-color: #F0F3F8;
 }
@@ -96,6 +101,7 @@ html {
 
 .container-1 {
     margin-top: 30px;
+    margin-left: 150px;
     background-color: #ffffff;
     width: 833px;
     height: 300px;
@@ -104,32 +110,17 @@ html {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.bgbox {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+
+
+.bgbox{
+    padding-left: 212px;
 }
 
-.sm{
-    padding-top: 25px;
-    color: #FFC14B;
-    text-align: right;
-    padding-right: 35px;
-}
-
-.abtu {
+.wlcm {
+    text-align: center;
     padding-top: 5px; 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     background-color: #09206F;
-    width: 250px;
+    width: 400px;
     padding-bottom: 10px;
     color: #f2f9ff;
     border-bottom-left-radius: 25px;
@@ -137,27 +128,25 @@ html {
     font-size: 17px;
 }
 
-.row{
-  display: block;
-  min-height: 1px;
-  margin: 5px;
+.acct_det_h3 {
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
 }
-.row:after{
-  content:"";
-  display: table;
-  clear: both;
+
+.acct_det_p {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
 }
-.column{
-  width:38%;
-  float:left;
-  padding: 0 5%;
-}
-.details {
-    padding-top: 20px;
-}
+
 .lvalues {
     color: #09206F;
-    text-align: left;
+    font-size: 18px;
 }
 .rvalues {
     color: #FFC14B;
@@ -165,13 +154,21 @@ html {
     font-size: 18px;
 }
 
-.main-image-1{
-    text-align: center;
-    height: 418px;
-    width: 317x;
-    overflow: hidden;
+.container-2 {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-
-
-
+.msg_blnc_h3 {
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
+}

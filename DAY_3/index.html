@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JC Admin Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav-1 {
+      padding-top: 75px;
+      height: 100vh;
+    }
+    
+    .sidenav-2 {
+      padding-top: 20px;
+      height: 100vh;
+    }
+ 
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img id="home" src="resources/img/LOGO%20bright.png" alt="Jee Carnot" class="logo-bright"> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="logout" class="lgo">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav sidenav-1 sidebar-1">
+      <a class="active" href="#home">HOME</a>
+      <a href="search_mm">SEARCH&nbsp;MENTORS/MENTEE</a>
+      <a href="#feedback">FEEDBACK</a>
+      <a href="#assign_mentors">ASSIGN MENTOR</a>
+      <a href="#payment">PAY MENTORS</a>
+      <a href="#materials_requested">MATERIAL REQUESTS</a>
+    </div>
+          
+    <div class="col-sm-10 container-z"> 
+       <div class="container-1">     
+               <div class="bgbox">
+                    <div style="text-align:center" class="wlcm">   
+                            <h2>WELCOME<span class="admin_name">&nbsp;Aman</span></h2>
+                    </div>
+                </div>
+                
+                <div class="acct_det_h3">
+                        <h3>Account details :</h3>
+                </div>
+                <br>
+                <div class="acct_det_p">
+                    <p class="lvalues">Name&nbsp;:&nbsp;<span class="rvalues">Aman</span></p>
+                    <p class="lvalues">Last&nbsp;:&nbsp;<span class="rvalues">3 Oct,2020 4:15 pm</span></p>
+                </div>
+         </div>
+        <div class="container-2">
+          <div class="msg_blnc_h3">
+            <h3>MESSAGE BALANCE</h3>
+          </div>
+          <div class="msg_blnc_h3">
+              <p class="lvalues">Promotional&nbsp;:&nbsp;<span class="rvalues">12</span></p>
+              <p class="lvalues">Transactional&nbsp;:&nbsp;<span class="rvalues">45</span></p>
+              <p class="lvalues">OTP&nbsp;:&nbsp;<span class="rvalues">45</span></p>
+          </div>
+      </div>
+    </div>
+ </div>
+</div>
+
+
+
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>
+
