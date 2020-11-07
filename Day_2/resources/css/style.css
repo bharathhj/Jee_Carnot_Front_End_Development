@@ -1,0 +1,178 @@
+html {
+    margin: 0;
+}
+
+/** --------------------------------------  **/
+/**                navbar                   **/
+/** --------------------------------------  **/
+
+.navbar {
+    border: none;
+    background-color:  #ffffff;
+}
+
+.navbar-header:after {
+    height: 30px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/** --------------------------------------  **/
+/**                  Side Bar               **/
+/** --------------------------------------  **/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/* The side navigation menu */
+.sidebar-1 {
+  background-color:#09206F;
+  overflow: hidden;
+  padding-top: 55px;
+}
+
+/* Sidebar links */
+.sidebar-1 a {
+  text-align: left;
+  font-size: 15px;
+  display: block;
+  color: #f1f6f7;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.col-sm-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Links on mouse-over */
+.sidebar-1 a:hover {
+  background-color: rgba(255, 255, 255, 0.38);
+  border-left: 3px solid #ffffff;
+  color: white;
+}
+
+/** --------------------------------------  **/
+/**                To Do                    **/
+/** --------------------------------------  **/
+
+.sidebar-2 {
+  background-color:rgb(252, 252, 252);
+  overflow: hidden;
+}
+
+.td {
+    text-align: center;
+    padding-top: 35px;
+    color: #F9A61A;
+}
+
+.tdlist {
+    padding-left: 15px;
+    text-align: left;
+    color: #484646;
+}
+
+/** --------------------------------------  **/
+/**               Main Section              **/
+/** --------------------------------------  **/
+
+.container-z {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F0F3F8;
+}
+
+
+.container-1 {
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 833px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.bgbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.sm{
+    padding-top: 7px;
+    color: #FFC14B;
+    text-align: right;
+    padding-right: 35px;
+}
+
+
+.abtu {
+    padding-top: 5px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #09206F;
+    width: 250px;
+    padding-bottom: 10px;
+    color: #f2f9ff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 17px;
+}
+
+.row{
+  display: block;
+  min-height: 1px;
+  margin: 5px;
+}
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.column{
+  width:38%;
+  float:left;
+  padding: 0 5%;
+}
+.details {
+    padding-top: 20px;
+}
+.lvalues {
+    color: #09206F;
+    text-align: left;
+}
+.rvalues {
+    color: #FFC14B;
+    float: inherit;
+    font-size: 18px;
+}
+
+.main-image-1{
+    text-align: center;
+    height: 418px;
+    width: 317x;
+    overflow: hidden;
+}
+
+
+
+
