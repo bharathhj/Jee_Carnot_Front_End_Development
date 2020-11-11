@@ -17,4 +17,8 @@ DAY 05 ( Revised ) : https://bharathhj.github.io/Jee_Carnot_Front_End_Developmen
 
 DAY 06 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_6/
 
+DAY 06 ( Revised ) : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_6(revised)/
+
+DAY 07 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_7/
+
 
