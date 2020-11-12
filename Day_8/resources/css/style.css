@@ -248,16 +248,23 @@
     width:20px;
 }
 
-.btn-view-profile{
-    color: #ffffff;
+.btn-view-profile a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.btn-view-profile {
+    text-decoration: none;
     background-color: #09206F;
+    color: #ffffff;
     width: 150px;
     height: 35px;
     border: none;
     border-radius: 20px;
 }
 
-.btn-view-profile:hover{
+.btn-view-profile a:hover{
+    text-decoration: none;
     background-color: #ffffff;
     color: #09206F;
     width: 150px;
@@ -295,6 +302,8 @@
     border-radius: 7px;
 }
 
+
+
 .mentee-profile-view-box {
     margin-left: 37px;
     width: 825px;
@@ -303,6 +312,7 @@
     background-color: #ffffff;
     border-radius: 7px;
 }
+
 .mph2{
     margin-left: 265px;
     text-align: center;
@@ -317,14 +327,56 @@
 }
 
 .mentee___h2{
+    padding-bottom: 8px;
+    padding-top: 10px;
     margin-left: 35px;
 }
 
 .act_det {
     text-align: center;
-    background-color: #09206F;;
+    background-color: #09206F;
     color: #ffffff;
     width: 175px;
     border: none;
     border-radius: 20px;
+}
+
+/** --------------------------------------  **/
+/**   Main Section View  Mentee Profile     **/
+/** --------------------------------------  **/
+
+.container-5 {
+    margin-top: 17px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 680px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentee-profile-view-box-1{
+    margin-left: 37px;
+    width: 825px;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  color: #09206F;
+}
+
+.mentor_details___h2{
+    margin-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+.buttons_mentee_profile_end{
+    margin-left: 85px;
 }
