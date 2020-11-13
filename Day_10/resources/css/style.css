@@ -1,0 +1,471 @@
+
+
+
+/** --------------------------------------  **/
+/**               Navigation                **/
+/** --------------------------------------  **/
+
+.nav-bg-color {
+    background-color: #ffffff;
+}
+
+
+
+
+
+/** --------------------------------------  **/
+/**                  Side Bar               **/
+/** --------------------------------------  **/
+
+/* The side navigation menu */
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px; 
+}
+
+.sidebar-left {
+  height: 100vh;
+  background-color:#09206F;
+  padding-top: 55px;
+}
+
+/* Sidebar links */
+.sidebar-left a {
+  text-align: left;
+  font-size: 15px;
+  display: block;
+  color: #f1f6f7;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Links on mouse-over */
+.sidebar-left a:hover,
+.sidebar-left a:active{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.38);
+  border-left: 5px solid #ffffff;
+  color: white;
+}
+
+
+/** --------------------------------------  **/
+/**               Main Section              **/
+/** --------------------------------------  **/
+
+.container-z {
+    height: 100vh;
+    background-color: #F0F3F8;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.container-1 {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 833px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
+.bgbox{
+    padding-left: 212px;
+}
+
+.wlcm {
+    text-align: center;
+    padding-top: 8px; 
+    background-color: #09206F;
+    width: 400px;
+    padding-bottom: 5px;
+    color: #f2f9ff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 17px;
+}
+
+.acct_det_h3 {
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
+}
+
+.acct_det_p {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
+}
+
+.lvalues {
+    color: #09206F;
+    font-size: 18px;
+}
+.rvalues {
+    color: #FFC14B;
+    float: inherit;
+    font-size: 18px;
+}
+
+.container-2 {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.msg_blnc_h3 {
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
+}
+
+.msg_blnc_p{
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #03091c;
+    text-align: left;
+}
+
+
+
+/** --------------------------------------  **/
+/**        Main Section Search Mentor       **/
+/** --------------------------------------  **/
+
+.options_mentor {
+    text-align: center;
+}
+.result {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 833px;
+    height: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentor-result-box {
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.row-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-4 {
+    width:20px;
+}
+
+.btn-view-profile{
+    color: #ffffff;
+    background-color: #09206F;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-view-profile:hover{
+    background-color: #ffffff;
+    color: #09206F;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+.img-center {
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+
+
+/** --------------------------------------  **/
+/**        Main Section Search Mentee       **/
+/** --------------------------------------  **/
+
+.options_mentee {
+    text-align: center;
+}
+.result {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 833px;
+    height: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentee-result-box {
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.row-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-4 {
+    width:20px;
+}
+
+.btn-view-profile a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.btn-view-profile {
+    text-decoration: none;
+    background-color: #09206F;
+    color: #ffffff;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-view-profile a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #09206F;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+.img-center {
+    text-align: center;
+}
+
+
+/** --------------------------------------  **/
+/**   Main Section View  Mentor Profile     **/
+/** --------------------------------------  **/
+
+.container-4 {
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 680px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.mentor-profile-view-box {
+    margin-left: 37px;
+    width: 825px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+
+
+.mentee-profile-view-box {
+    margin-left: 37px;
+    width: 825px;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.mph2{
+    margin-left: 265px;
+    text-align: center;
+    padding-top: 8px; 
+    background-color: #09206F;
+    width: 400px;
+    padding-bottom: 5px;
+    color: #f2f9ff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 17px;
+}
+
+.mentee___h2{
+    padding-bottom: 8px;
+    padding-top: 10px;
+    margin-left: 35px;
+}
+
+.act_det {
+    text-align: center;
+    background-color: #09206F;
+    color: #ffffff;
+    width: 175px;
+    border: none;
+    border-radius: 2px;
+}
+
+/** --------------------------------------  **/
+/**   Main Section View  Mentee Profile     **/
+/** --------------------------------------  **/
+
+.container-5 {
+    margin-top: 17px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 680px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentee-profile-view-box-1{
+    margin-left: 37px;
+    width: 825px;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  color: #09206F;
+}
+
+.mentor_details___h2{
+    margin-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+.buttons_mentee_profile_end{
+    margin-left: 85px;
+}
+
+/** --------------------------------------  **/
+/**   Main Section View  Pay_Mentor         **/
+/** --------------------------------------  **/
+
+.container-6 {
+    margin-top: 55px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 470px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentor-profile-view-box-2 {
+    margin-left: 37px;
+    width: 825px;
+    height: 270px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+
+.payment_amount_hl {
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffffff;
+    color: #09206F;
+    border: 1px solid #09206F;
+}
+
+
+
+.btn-view-payment {
+    text-decoration: none;
+    background-color: #09206F;
+    color: #ffffff;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-view-payment:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #09206F;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/** --------------------------------------  **/
+/**   Main Section View Materials_Request   **/
+/** --------------------------------------  **/
+.container-7 {
+    margin-top: 55px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 370px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mentor-profile-view-box-3 {
+    margin-left: 37px;
+    width: 825px;
+    height: 230px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.btn-approval {
+    margin-left: 35px;
+    width: 100px;
+}
+
+
+.btn-reject {
+    margin-left: 35px;
+    width: 100px;
+}
