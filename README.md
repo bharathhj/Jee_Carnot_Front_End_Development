@@ -25,5 +25,9 @@ DAY 08 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_8/
 
 DAY 09 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_9/pay_mentors.html
 
+DAY 10 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_8/
+
+DAY 11 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_11/
+
 
 
