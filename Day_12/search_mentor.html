@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+ 
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    
+<!-- NavBar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light nav-bg-color">
+  <a class="navbar-brand" href="#"><img width="214px" height="50px"src="resources/img/LOGO%20bright@2x.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn logout-btn" type="submit">Logout</button>
+    </form>
+  </div>
+</nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 sidebar-left">
+      <a class="active" href="home.html">HOME</a>
+      <a href="search_mentor.html">SEARCH&nbsp;MENTORS</a>
+      <a href="search_mentee.html">SEARCH&nbsp;MENTEE</a>
+      <a href="#feedback">FEEDBACK</a>
+      <a href="assign_mentors.html">ASSIGN MENTOR</a>
+      <a href="pay_mentors.html">PAY MENTORS</a>
+      <a href="material_requests.html">MATERIAL REQUESTS</a>
+      </div>
+      <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 container-z">
+       <div class="container-1">     
+               <div class="bgbox">
+                    <div style="text-align:center" class="wlcm">   
+                            <h2>SEARCH<span class="admin_name">&nbsp;MENTOR</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-4 mt-5 pt-3">
+                 <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search ......" aria-label="Recipient's username">
+                   <div class="input-group-append">
+                     <span class="input-group-text"><ion-icon name="search-outline"></ion-icon></span>
+                   </div>
+                 </div>
+                </div>
+                <br>
+                <div class="options_mentor">
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio">Name
+                      </label>
+                    </div>
+                    <div class="form-check-inline">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio">Email
+                      </label>
+                    </div>
+                    <div class="form-check-inline disabled">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio">Phone
+                      </label>
+                    </div>
+                </div>
+                <br>
+         </div>
+          
+          <div class="result container">
+            <div>
+                <br>
+                <h3>RESULT</h3> 
+                <br>
+            </div>
+              
+            <div class="row-1 mentor-result-box">
+              
+              <div class="col-4 img-center"><br><img src="resources/img/Mask_Group_1@2x.png" width="150px" height="150px" class="img-center"></div>
+              <div class="col-4">
+                   <div class="column details">
+                        <br>
+                        <p class="lvalues"><b>Name</b>&nbsp;:&nbsp;<span class="lvalues">Swati&nbsp;Mishra</span></p>
+                        <p class="lvalues"><b>Email</b>&nbsp;:&nbsp;<span class="lvalues">Swati1@gmail.com</span></p>
+                        <p class="lvalues"><b>Phone</b>&nbsp;:&nbsp;<span class="lvalues">9879648546</span></p>
+                       <p class="lvalues"><b>IIT</b>&nbsp;:&nbsp;<span class="lvalues">IIT Madras</span></p>
+                        <br>
+                  </div>  
+              </div>
+              <div class="col-4">
+                    <br>
+                    <a class="a-view-profile" href="mentor_profile.html"><button type="button" class="btn-view-profile">View Profile</button></a>  
+              </div>            
+            </div> 
+              
+          </div>
+         
+    </div>
+  </div>
+</div>
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>
