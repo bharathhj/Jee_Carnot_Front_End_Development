@@ -29,5 +29,16 @@ DAY 10 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_10/
 
 DAY 11 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_11/
 
+DAY 12 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_12/home.html
+
+DAY 13 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_13/
+
+DAY 14 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_14/
+
+DAY 15 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_15/
+
+DAY 16 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_16/feedback.html
+
+DAY 17 : https://bharathhj.github.io/Jee_Carnot_Front_End_Development/Day_17/login.html
 
 
